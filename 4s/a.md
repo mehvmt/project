@@ -1,1 +1,3 @@
-sudo apt install -y python3-requests python3-pil python3-tk
+cd ~
+git clone https://github.com/axi0mX/ipwndfu.git
+cd ipwndfu
