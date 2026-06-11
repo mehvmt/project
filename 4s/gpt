@@ -12,3 +12,6 @@ sudo find / -name "checkra1n" 2>/dev/null
 dpkg -l | grep checkra1n
 apt-cache policy checkra1n
 sudo apt install checkra1n
+
+sudo mv /home/ubuntu/.local/share/Trash/files/checkra1n /usr/local/bin/checkra1n
+sudo chmod +x /usr/local/bin/checkra1n
