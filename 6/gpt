@@ -1,0 +1,12 @@
+sudo rm -f /etc/apt/sources.list.d/checkra1n.list
+sudo apt update
+
+uname -m
+
+cd /tmp
+wget https://assets.checkra.in/downloads/linux/cli/x86_64/checkra1n
+chmod +x checkra1n
+sudo mv checkra1n /usr/local/bin/checkra1n
+
+which checkra1n
+
